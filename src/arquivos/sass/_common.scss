@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+
+}
+
+
+/***************
+ * Base States *
+ ***************/
+body-r {
+  color: $fg_color;
+  background-color: $bg_color;
+}
+
+@mixin button($color) {
+  background: $color;
+}
+
+button {
+  @include button(red);
+}
