@@ -4,6 +4,7 @@ Agiliza el desarrollo en la plataforma Vtex por medio de
 
 1. Proxy que simula la carga del sitio.
 2. Compilación y mignificación de los archivos.
+3. Linter
 
 ## Funcionamiento
 
@@ -48,3 +49,7 @@ npm start
 ```
 
 En el directorio `./dist` se encuentra los archivos comprimidos o en `./dis/min` el compilado de css y scripts.
+
+## Prettier
+
+Deshabilitar el prettier al inicio del archivo .js => `// prettier-ignore`
