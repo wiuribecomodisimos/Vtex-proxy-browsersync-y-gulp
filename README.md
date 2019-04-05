@@ -18,7 +18,7 @@ Nota: los archivos se trabajaran en local igual sus cambios solo se realizan en 
 
 ### Proxy
 
-1. Configurar en el archivo `.env` con los datos personales.
+1. Renombrar el archivo `.env-conf` ->`.env` y configurarlo con los datos personales.
 
 2. Ejecutar el entorno de prueba:
 
@@ -37,7 +37,7 @@ npm run watch
 
 ## Concatenar y mignificar
 
-1. Configurar en el archivo `.env` con los datos personales.
+1. Renombrar el archivo `.env-conf` ->`.env` y configurarlo con los datos personales.
 
 Ejecutar:
 
