@@ -10,7 +10,6 @@ const del = require('del');
 const cssmin = require('gulp-cssmin');
 const uglify = require('gulp-uglify');
 const pipeline = require('readable-stream').pipeline;
-const babel = require('gulp-babel');
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const webpackConfig = require('./webpack.config.js');

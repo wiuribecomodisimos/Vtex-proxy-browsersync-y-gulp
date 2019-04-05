@@ -8,6 +8,11 @@ function component() {
 
   console.log('test_source_map');
 
+  [1, 2, 3].map(n => {
+    console.log(n);
+    return n + 1;
+  });
+
   return element;
 }
 
