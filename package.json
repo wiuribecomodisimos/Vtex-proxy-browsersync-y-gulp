@@ -33,7 +33,9 @@
     "gulp-uglify": "^3.0.2",
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
-    "readable-stream": "^3.3.0"
+    "readable-stream": "^3.3.0",
+    "webpack": "^4.29.6",
+    "webpack-stream": "^5.2.1"
   },
   "dependencies": {}
 }
