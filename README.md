@@ -8,13 +8,15 @@ Agiliza el desarrollo en la plataforma Vtex por medio de
 
 ## Funcionamiento
 
-Al navegar el proxy `localhost:3000` este cargara la tienda con todos sus archivos por defecto a no ser que en el directorio local `src` encuentre su remplazo.
+Al navegar el proxy `localhost:3000` o  `https://localhost:3000` este cargara la tienda con todos sus archivos por defecto a no ser que en el directorio local `src` encuentre su remplazo, en caso de https permitir acceso a fuentes desconcidas.
 
 El directorio local `.src` debe contener la estructura de directorios equivalente a el path raiz de Vtex ejemplo: `./src/arquivos/FILE.js` tambien es posible agrupar tipos de archivos en directorios ejemplo: `./src/arquivos/js/FILE.js`. convirtiendolo a `./arquivos/FILE.js`.
 
-Nota: los archivos se trabajaran en local igual sus cambios solo se realizan en este. SOLO LAS TAREAS ADMINISTRATIVAS AFECTAN EL ENTORNO REAL.
+Nota: 
+- Error al login, intentar hacer login con Facebook, Google acount.
+- Los archivos se trabajaran en local igual sus cambios solo se realizan en este. SOLO LAS TAREAS ADMINISTRATIVAS AFECTAN EL ENTORNO REAL.
 
-## Run
+## Desarrollo
 
 ### Proxy
 
@@ -35,7 +37,9 @@ npm run watch
 
 5. Una vez listos los cambios, subirlos manualmente por el administrador a la plataforma Vtex por medio del administrador.
 
-## Concatenar y mignificar
+## Producción
+Listo todo!, generar todos los archivos mignificados, concatenados o en webpack:bundle para subirlos. 
+
 
 1. Renombrar el archivo `.env-conf` ->`.env` y configurarlo con los datos personales.
 
@@ -48,8 +52,7 @@ npm start
 
 ```
 
-En el directorio `./dist` se encuentra los archivos comprimidos o en `./dis/min` el compilado de css y scripts.
+En el directorio `./dist` se encuentra los archivos comprimidos bajo la misma estructura o en `./dis/min` el compilado de css y scripts.
 
 ## Prettier
-
 Deshabilitar el prettier al inicio del archivo .js => `// prettier-ignore`
